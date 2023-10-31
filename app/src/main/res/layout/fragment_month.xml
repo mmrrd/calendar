@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+    <com.example.calendarapp.JCalendarMonthView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/jcalendarmonthview"
+        app:dayHeight="23dp"
+        app:daytextsize="11sp"
+        app:datetextsize="12.6sp"
+        app:eventtextsize="10sp"
+        app:daytextcolor="#787878"
+        app:datetextcolor="#000"
+        app:datemargintop="10dp"
+        android:background="@android:color/white"
+        app:linewidth="1.1dp"
+        app:linecolor="#EDEDED"
+        />
+
+</RelativeLayout>
